@@ -87,10 +87,6 @@ public class MainActivity extends AppCompatActivity {
             try{
                 Geocoder geocoder = new Geocoder(this, Locale.getDefault());
                 List<Address> list = geocoder.getFromLocation(loc.getLatitude(), loc.getLongitude(), 1);
-                //if (){
-
-
-                //}
                 //Validamos que la lista no este vacia
                 if (!list.isEmpty()){
                     Address dirCalle = list.get(0);
